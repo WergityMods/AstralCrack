@@ -16,7 +16,6 @@ enum LogLevel : int
 class Astral
 {
 private:
-	std::uintptr_t authOffset = 0x192C00;
 	std::string path = "C:\\AstraL\\DLL\\cheat.dll";
 	std::array<LPCSTR, 3> dirs = { "C:\\AstraL", "C:\\AstraL\\DLL", "C:\\AstraL\\DLL\\Configs" };
 
